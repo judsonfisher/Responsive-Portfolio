@@ -1,2 +1,2 @@
-# Responsive-Portfolio
-This is the responsive version of my work portfolio
+# basic-portfolio
+This is my work portfolio
