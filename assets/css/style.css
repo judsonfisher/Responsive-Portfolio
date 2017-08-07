@@ -95,7 +95,6 @@ hr {
 	max-width: 960px;
 	margin-right: 6.25%;
 	margin-left: 6.25%;
-
 }
 
 .main {
@@ -219,3 +218,169 @@ textarea {
 	bottom: 0;
 	left: 0;
 }
+
+@media screen and (max-width: 980px) {
+	#name {
+	height: 100%;
+	width: 20%;
+	background-color: #4aaaa5;
+	float: left;
+	margin-left: 6.25%;
+	}
+
+	h1 {
+	font-size: 20px;
+	}
+
+	.content {
+	/*min-width: 300px;
+	max-width: 300px;*/
+		margin-right: 10px;
+		margin-left: 35px;
+	}
+
+	.mainBox {
+	width: 400px;
+	margin-right: 25px;
+	}
+
+	.connectWithMe {
+	width: 200px;
+	float: left;
+	}
+
+	.links {
+	float: left;
+	position: relative;
+	/*top: 40;
+	bottom: 35;*/
+	margin-left: 35%;
+	}
+
+	.media {
+	width: 200px;
+	padding-left: 15px;	
+	}
+
+	h2 {
+	font-size: 20px;
+	}
+	
+	.footer {
+	width: 100%;
+	}
+
+	.footerText {
+	/*margin-right: 30%;
+	margin-bottom: 10px;*/
+	text-align: center;
+	}
+
+	#meImg {
+	width: 100%;
+	height: auto;
+	margin-bottom: 15px;	
+	}
+
+	.portfolioImage {
+		width: 100%;
+	}
+
+	.picRow {
+	margin-left: 80px;	
+	}
+
+@media screen and (max-width: 768px) {
+	.content {
+	margin-right: 10px;
+	margin-left: 15px;
+	width: 80%;
+	}
+
+	.mainBox {
+	width: 70%;
+	}
+
+	.connectWithMe {
+	width: 70%;
+	margin-top: 20px;	
+	}
+
+	#meImg {
+	width: 50%;
+	height: auto;
+	margin-bottom: 15px;	
+	}
+
+	.picRow {
+	margin-left: 70px;	
+	}
+
+@media screen and (max-width: 640px) {
+	.main {
+	width: 640px;	
+	}
+
+	.header {
+	position: static;
+	left: 0;
+	margin-left: none;
+	width: 100%;
+	}
+	
+	#name {
+	height: 100%;
+	width: 100%;
+	margin: none;
+	}
+	
+	h1 {
+	margin-left: none;	
+	}
+
+	.content {
+	margin-right: 5px;
+	margin-left: 12px;
+	width: 500px;
+	}
+
+	.mainBox {
+	width: 550px;
+	}
+
+	.connectWithMe {
+	width: 550px;
+	margin-top: 20px;	
+	margin-bottom: 200px;
+	}
+
+	#meImg {
+	width: 100%;
+	height: auto;
+	margin-bottom: 15px;	
+	}
+	
+	.picRow {
+	width: 100%;
+	margin-left: 0px;	
+	}
+
+	.portfolioImage {
+	height: 350px;	
+	}
+
+	.imgName {
+	margin: none;
+	padding: 15px;
+	width: 94.5%;
+	}
+
+	.header {
+	background-color: #ffffff;
+	margin-bottom: 30px;
+	}
+
+	li {
+	background-color: #ffffff;
+	margin-bottom: 30px;	
+	}
