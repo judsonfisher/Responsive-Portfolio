@@ -317,6 +317,9 @@ textarea {
 	}
 
 @media screen and (max-width: 640px) {
+	body {	
+	}
+
 	.main {
 	width: 640px;	
 	}
@@ -326,6 +329,7 @@ textarea {
 	left: 0;
 	margin-left: none;
 	width: 100%;
+	background-color: #4aaaa5;
 	}
 	
 	#name {
@@ -341,23 +345,23 @@ textarea {
 	.content {
 	margin-right: 5px;
 	margin-left: 12px;
-	width: 500px;
+	width: 100%;
 	}
 
 	.mainBox {
-	width: 550px;
+	width: 640px;
 	}
 
 	.connectWithMe {
-	width: 550px;
+	width: 100%;
 	margin-top: 20px;	
 	margin-bottom: 200px;
 	}
 
 	#meImg {
-	width: 100%;
+	width: 20%;
 	height: auto;
-	margin-bottom: 15px;	
+	margin-bottom: 10px;	
 	}
 	
 	.picRow {
